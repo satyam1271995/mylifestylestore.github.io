@@ -1,0 +1,625 @@
+.img-responsive {
+	height: 100%;
+	display: block;
+	width: 100%;
+}
+
+/* Contact Page */
+.contact-main {
+	width: 1090px;
+	margin: 0 auto;
+	display: block;
+	padding: 45px 0 45px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.contact-main h3 {
+	/* font-family: proxima_novalight; */
+	font-size: 32px;
+}
+
+.contact-page-banner {
+	background: url(../new_images/contact/map.jpg) no-repeat;
+	width: 100%;
+	height: 550px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* Lets talk Section*/
+.lets-talk {
+	float: left;
+	width: 700px;
+	border-right: 1px solid #E9E9E9;
+	box-sizing: border-box;
+}
+
+.lets-talk .contact-form {
+	width: 634px;
+	margin: 25px auto;
+}
+
+.lets-talk .contact-form .middle-con {
+	position: relative;
+}
+
+.contact-form .middle-con .contact_error {
+	position: absolute;
+	bottom: -29%;
+}
+
+.lets-talk .input-field,
+.lets-talk .textarea-field {
+	box-sizing: border-box;
+	width: 306px;
+	float: left;
+	background: #ebebeb;
+	border-radius: 4px;
+	border: 0;
+	padding: 11px 11px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-family: 'proxima_nova_rgregular';
+	font-size: 16px;
+}
+
+.lets-talk .textarea-field {
+	width: 621px;
+	height: 145px;
+	resize: vertical;
+}
+
+.lets-talk .contact-submit {
+	box-sizing: border-box;
+	background: #d05656;
+	color: #FFF;
+	text-transform: uppercase;
+	width: 245px;
+	margin: 37px 8px 0;
+	padding: 10px 0;
+	border: 0;
+	display: block;
+	border-radius: 4px;
+	font-family: 'proxima_novasemibold';
+	font-size: 16px;
+	text-align: center;
+	float: right
+}
+
+.lets-talk p {
+	margin: 0 auto;
+	text-align: center;
+	line-height: 18px;
+	font-weight: normal;
+	font-size: 16px;
+	padding-bottom: 5px;
+	letter-spacing: 0.5px;
+}
+
+/* Sales Enquireis Section */
+.sales-enquiries {
+	float: left;
+	width: 385px;
+}
+
+.sales-enquiries ul {
+	padding-left: 65px;
+}
+
+.sales-enquiries h3 {
+	margin-bottom: 50px;
+	text-align: left;
+	padding-left: 70px;
+}
+
+.sales-enquiries ul li {
+	margin-bottom: 65px;
+}
+
+.sprite-img {
+	background: url(https://img.contus.com/new_images/contact/sales.png) no-repeat;
+	float: left;
+}
+
+.sales-enquiries .send .sprite-img {
+	background-position: -9px 1px;
+	width: 48px;
+	height: 36px;
+}
+
+.sales-enquiries .india .sprite-img {
+	background-position: -85px 0;
+	width: 48px;
+	height: 42px;
+}
+
+.sales-enquiries .usa .sprite-img {
+	background-position: -154px 0;
+	width: 48px;
+	height: 42px;
+}
+
+.sales-enquiries p {
+	font-size: 19px;
+	margin: 0;
+	color: #323232;
+	/* text-transform: uppercase; */
+	padding-left: 71px;
+}
+
+.sales-enquiries span {
+	color: #757575;
+	display: block;
+	font-family: proxima_novalight;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.sales-enquiries a {
+	text-transform: lowercase;
+	color: #757575;
+	display: block;
+	font-family: proxima_novalight;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.sales-enquiries .second {
+	padding-top: 2px;
+}
+
+/* Thank you Page*/
+.header-bg {
+	background: #000;
+	height: 80px;
+}
+
+.sections {
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;
+	padding: 50px 0
+}
+
+.thankyou-banner-section>h3 {
+	display: block;
+	left: -10px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	position: relative;
+	top: -15px;
+}
+
+.thankyou-banner-section>span {
+	display: block;
+	font-family: proxima_novalight;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+/*Follow Us Section*/
+.follow-us li {
+	height: 88px;
+	margin-right: 40px;
+	width: 85px;
+}
+
+.follow-us h3 {
+	margin-bottom: 35px;
+}
+
+.follow-us {
+	overflow: hidden\9;
+}
+
+.follow-us {
+	width: 337px;
+	margin: 0 auto;
+}
+
+.follow-us .fb {
+	background-position: 0 -63px
+}
+
+.follow-us .twitter {
+	background-position: -105px -63px
+}
+
+.follow-us .in {
+	background-position: -220px -63px;
+	margin: 0
+}
+
+.follow-us .fb:hover {
+	background-position: 0 -151px;
+}
+
+.follow-us .twitter:hover {
+	background-position: -105px -151px
+}
+
+.follow-us .in:hover {
+	background-position: -220px -151px
+}
+
+.follow-us li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.mailfunction li {
+	float: left
+}
+
+.thank .dropdown-menu {
+	border: 1px solid #ccc\9
+}
+
+.middle-con {
+	text-align: center;
+	width: 100%
+}
+
+.text-cont-error .txtname,
+.text-cont-error .txtnam,
+.text-cont-error .txtemai,
+.text-cont-error .txtemail,
+.text-cont-error .txtms,
+.text-cont-error .txtmsg,
+.text-cont-error .txtcountry,
+.text-cont-error .txtphone,
+.text-cont-error input::-webkit-input-placeholder {
+	color: #E28989;
+}
+
+.text-cont-error .txtname,
+.text-cont-error .txtnam,
+.text-cont-error .txtemai,
+.text-cont-error .txtemail,
+.text-cont-error .txtms,
+.text-cont-error .txtmsg,
+.text-cont-error .txtcountry,
+.text-cont-error .txtphone,
+.text-cont-error input:-moz-placeholder {
+	/* Firefox 18- */
+	color: #E28989;
+}
+
+.text-cont-error .txtname,
+.text-cont-error .txtnam,
+.text-cont-error .txtemai,
+.text-cont-error .txtemail,
+.text-cont-error .txtms,
+.text-cont-error .txtmsg,
+.text-cont-error .txtcountry,
+.text-cont-error .txtphone,
+.text-cont-error input::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #E28989;
+}
+
+.text-cont-error .txtname,
+.text-cont-error .txtnam,
+.text-cont-error .txtemai,
+.text-cont-error .txtemail,
+.text-cont-error .txtms,
+.text-cont-error .txtmsg,
+.text-cont-error .txtcountry,
+.text-cont-error .txtphone,
+.text-cont-error input:-ms-input-placeholder {
+	color: #E28989;
+}
+
+.text-cont-error input[value] {
+	color: #E28989;
+}
+
+.text-cont-error textarea[value] {
+	color: #E28989
+}
+
+.text-cont-error textarea::-webkit-input-placeholder {
+	color: #E28989;
+}
+
+.text-cont-error textarea:-moz-placeholder {
+	/* Firefox 18- */
+	color: #E28989;
+}
+
+.text-cont-error textarea::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #E28989;
+}
+
+.text-cont-error textarea:-ms-input-placeholder {
+	color: #E28989;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.contact-main {
+		box-sizing: border-box;
+		width: 100%;
+		margin-top: 20px;
+		padding: 0
+	}
+
+	.img-responsive {
+		height: 100%;
+		display: block;
+		max-width: 100%;
+	}
+
+	.lets-talk {
+		float: left;
+		width: 100%;
+		border-right: 1px solid #E9E9E9;
+		box-sizing: border-box;
+	}
+
+	.sales-enquiries {
+		width: 634px;
+		margin: 0 auto;
+		clear: both;
+		float: none;
+	}
+
+	.sales-enquiries ul {
+		padding-left: 0
+	}
+
+	.sales-enquiries h3 {
+		margin-bottom: 50px;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.sales-enquiries ul li {
+		margin-bottom: 65px;
+		float: left;
+		width: 33.3%;
+	}
+
+	.sales-enquiries span {
+		font-size: 14px;
+	}
+
+	/*Thankyou Page */
+	.header-bg {
+		display: none;
+	}
+
+	.thankyou-page .header_container {
+		background: #000;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.follow-us {
+		width: 36%;
+	}
+}
+
+@media screen and (max-width:1050px) {
+	.thankyou-banner-section>h3 {
+		left: -21px;
+	}
+}
+
+@media screen and (max-width:850px) {
+	.sections {
+		padding: 50px 20px;
+		box-sizing: border-box;
+	}
+
+	.follow-us {
+		width: 100%;
+	}
+
+	.thankyou-banner-section>h3 {
+		left: -21px;
+	}
+
+	.contact-page-banner {
+		height: auto;
+		padding-top: 50%;
+		box-sizing: border-box;
+	}
+
+	.contact-form .middle-con .contact_error {
+		position: absolute;
+		bottom: 35%;
+	}
+
+	.recaptcha-down {
+		margin-bottom: 47px;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.sales-enquiries {
+		float: none;
+		width: 450px;
+		clear: both;
+		margin: 0 auto;
+	}
+
+	.sales-enquiries h3 {
+		margin-bottom: 35px;
+		padding-left: 0;
+		padding-top: 40px;
+		text-align: center;
+	}
+
+	.sales-enquiries ul {
+		padding-left: 0;
+	}
+
+	.sales-enquiries ul li {
+		float: left;
+		min-height: 45px;
+		vertical-align: middle;
+		width: 32.3%;
+	}
+
+	.sales-enquiries .send .sprite-img {
+		float: none;
+		margin: 0 auto 16px;
+	}
+
+	.sales-enquiries .india .sprite-img {
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.sales-enquiries .usa .sprite-img {
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.sales-enquiries p {
+		padding-left: 0;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.sales-enquiries span {
+		font-size: 12px;
+		padding-top: 2px;
+	}
+
+	.sales-enquiries .second {
+		line-height: 5px;
+		padding-top: 1px;
+	}
+
+	.lets-talk .contact-form {
+		margin: 25px auto;
+		width: 450px;
+	}
+
+	.lets-talk .input-field,
+	.lets-talk .textarea-field {
+		margin: 0 auto 10px;
+		box-sizing: border-box;
+		padding: 11px 2%;
+		width: 96%;
+	}
+
+	.thankyou-banner-section>h3 {
+		left: -21px;
+	}
+
+	.mailfunction li {
+		float: left;
+		width: 100%;
+	}
+
+	.recaptcha-top {
+		float: none;
+	}
+
+	.lets-talk .contact-form .contact-submit {
+		float: none;
+		margin: 15px auto;
+	}
+
+	.contact-form .middle-con .contact_error {
+		position: absolute;
+		bottom: 35%;
+	}
+
+	.recaptcha-down {
+		margin-bottom: 47px;
+		float: none;
+		margin: 9px auto;
+		width: 302px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.sales-enquiries {
+		clear: both;
+		float: none;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	.sales-enquiries h3 {
+		margin-bottom: 19px;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.sales-enquiries ul {
+		padding-left: 0;
+	}
+
+	.sales-enquiries ul li {
+		float: none;
+		width: 300px;
+		margin-bottom: 35px;
+	}
+
+	.lets-talk .contact-form {
+		margin: 25px auto;
+		width: 300px;
+	}
+
+	.lets-talk .contact-form .input-field,
+	.lets-talk .contact-form .textarea-field {
+		margin: 0 auto 10px;
+		box-sizing: border-box;
+		padding: 11px 2%;
+		width: 96%;
+	}
+
+	.lets-talk .contact-form .input-field,
+	.lets-talk .contact-form .textarea-field {
+		margin: 0 auto 10px;
+	}
+
+	.thankyou-banner-section>h3 {
+		left: -21px;
+	}
+
+	.recaptcha-top {
+		float: none;
+	}
+
+	.lets-talk .contact-form .contact-submit {
+		float: none;
+		margin: 15px auto;
+	}
+
+	.contact-form .middle-con .contact_error {
+		position: absolute;
+		bottom: 35%;
+	}
+
+	.recaptcha-down {
+		margin-bottom: 47px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.follow-us {
+		width: 88px;
+	}
+}
